@@ -1,0 +1,52 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1505.vea_4b_20a_4a_495">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2247.va_423189a_7dff"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2247.va_423189a_7dff">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@803.v08103b_87c280">
+      <branch plugin="branch-api@2.1214.v3f652804588d">
+        <sourceId>ec17fc0d-c284-4156-b217-4f40fdb564b6</sourceId>
+        <head class="jenkins.plugins.git.GitBranchSCMHead" plugin="git@5.7.0">
+          <name>dev</name>
+        </head>
+        <scm class="hudson.plugins.git.GitSCM" plugin="git@5.7.0">
+          <configVersion>2</configVersion>
+          <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+              <url>https://github.com/LilianaKor/jenkins-python-pipeline.git</url>
+            </hudson.plugins.git.UserRemoteConfig>
+          </userRemoteConfigs>
+          <branches class="singleton-list">
+            <hudson.plugins.git.BranchSpec>
+              <name>dev</name>
+            </hudson.plugins.git.BranchSpec>
+          </branches>
+          <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+          <submoduleCfg class="empty-list"/>
+          <extensions>
+            <jenkins.plugins.git.GitSCMSourceDefaults>
+              <includeTags>false</includeTags>
+            </jenkins.plugins.git.GitSCMSourceDefaults>
+          </extensions>
+        </scm>
+        <properties/>
+        <actions/>
+      </branch>
+    </org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.multibranch.SCMBinder" plugin="workflow-multibranch@803.v08103b_87c280">
+    <scriptPath>Jenkinsfile</scriptPath>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

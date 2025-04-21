@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1214.v3f652804588d">
+  <sourceActions>
+    <entry>
+      <string>ec17fc0d-c284-4156-b217-4f40fdb564b6</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@5.7.0">
+          <remote>https://github.com/LilianaKor/jenkins-python-pipeline.git</remote>
+          <name>main</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

@@ -1,0 +1,73 @@
+Branch indexing
+ > git rev-parse --resolve-git-dir /Users/lilianakoretska/.jenkins/caches/git-4067c11b1194e62f795839f454153431/.git # timeout=10
+Setting origin to https://github.com/LilianaKor/jenkins-python-pipeline.git
+ > git config remote.origin.url https://github.com/LilianaKor/jenkins-python-pipeline.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5 (Apple Git-154)'
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/dev
+Seen branch in repository origin/main
+Seen 2 remote branches
+Obtained Jenkinsfile from 50c70ff3c1f690e784143eecf5158f64523d0c62
+[8mha:////4AHUseLpeFtOBXyXrmGAsAe+B6SnpXv19PjUnc4bTpWwAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IXpnHvlq7mpFLBfjFWbS0i1VFMvnbkITNHjaBCGv5CkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4I5Xy4p40dU/p5KWQA/IHpnk6f23Y7AGKKGAPoR/yQa6AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /Users/lilianakoretska/.jenkins/workspace/jenkins-python-test_dev
+[8mha:////4AgpT3/v/7z/pw7pGg1YgImateUOBl4X4PaCEwPuVHXBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4O7LOkrhtaoq3LOL92b0LidKitbYSfR2rUz9sKB+iOWgAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4JimmKzzGuUH4D72Na8MftH3jQGvDhSVZVk3G6Z99xHbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ho9wE5DbATA2DQvTIoaTlyznFF+Fqxo3oZemFviA48oAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/LilianaKor/jenkins-python-pipeline.git
+ > git init /Users/lilianakoretska/.jenkins/workspace/jenkins-python-test_dev # timeout=10
+Fetching upstream changes from https://github.com/LilianaKor/jenkins-python-pipeline.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5 (Apple Git-154)'
+ > git fetch --no-tags --force --progress -- https://github.com/LilianaKor/jenkins-python-pipeline.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/LilianaKor/jenkins-python-pipeline.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 50c70ff3c1f690e784143eecf5158f64523d0c62 (dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 50c70ff3c1f690e784143eecf5158f64523d0c62 # timeout=10
+Commit message: "Fix: use python3 -m pip and pytest"
+First time build. Skipping changelog.
+[8mha:////4K9J3iQ/7KdBt0aNHBX5PwHCkJkGzulEjkDrTwNy8xQMAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4IQ21fpi2eJPGjzZG1fLmzbrBbAtWbF3tPHWFcArwLHqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Jhc1rCBdJSGDlz6VVcSWIVLtM7SxYm2A//cpRBg419gAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4DPMZMZBn6bFf9bbTbR/biFcx+Drrvo9BH3UM6mmPtysAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4JctDkvZUHxnljNoxJBcJC1JevGJEC7mdEujWnNwUNecAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4Iqxu0fPMuKOwm1Z3KWziNC3gD4j2H+D9KStoV3PIOsYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Install dependencies)
+[8mha:////4IaJCCRdmxaxCPZj3kO8jQ7iN6M6gQI2TFmuA3nOLzvnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ python3 -m pip install -r requirements.txt
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pytest in /Users/lilianakoretska/Library/Python/3.9/lib/python/site-packages (from -r requirements.txt (line 1)) (8.3.5)
+Requirement already satisfied: tomli>=1 in /Users/lilianakoretska/Library/Python/3.9/lib/python/site-packages (from pytest->-r requirements.txt (line 1)) (2.2.1)
+Requirement already satisfied: pluggy<2,>=1.5 in /Users/lilianakoretska/Library/Python/3.9/lib/python/site-packages (from pytest->-r requirements.txt (line 1)) (1.5.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in /Users/lilianakoretska/Library/Python/3.9/lib/python/site-packages (from pytest->-r requirements.txt (line 1)) (1.2.2)
+Requirement already satisfied: packaging in /Users/lilianakoretska/Library/Python/3.9/lib/python/site-packages (from pytest->-r requirements.txt (line 1)) (25.0)
+Requirement already satisfied: iniconfig in /Users/lilianakoretska/Library/Python/3.9/lib/python/site-packages (from pytest->-r requirements.txt (line 1)) (2.1.0)
+WARNING: You are using pip version 21.2.4; however, version 25.0.1 is available.
+You should consider upgrading via the '/Applications/Xcode.app/Contents/Developer/usr/bin/python3 -m pip install --upgrade pip' command.
+[8mha:////4CzNQB7C8qxGT+3VBxnIDAB1FKqoq6TOPvirhLxq94OWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4BT40G0W3TT1VK3MLIzSIexH3F1t3Db/fyZksRWX7uAZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4CUtQaUnFLZHhGEfcdYJ1R3hQc1Ahbd3RcyL7J0i99BYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4Ffw8fizWMFJJcEXd/QNaupPJBZWnYBmxqr6XguT32jfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Run tests)
+[8mha:////4PiVGnjZib0TjP87FYVHdTaGb1+x19mlIq5a/bnco7HkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ python3 -m pytest tests/ --maxfail=1 --disable-warnings -q
+..                                                                       [100%]
+2 passed in 0.02s
+[8mha:////4JrBLXVYtKLx8DnYOp7vLuEEc7ys63q6wRW5dlExTIkUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4LMx6jb1MeU60Gn44c49YHYooCk+chOrYQENC/aaSGs9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IWP5uNueHjHoqtbkuefx7c86fI0AWNU7UnOZNy1Nu6MAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZNrrr+ALkszR2+AAAA[0m[Pipeline] }
+[8mha:////4FfrueikwbW+0QoTZgjqtDzPFJUhbRrxDzxuxN3MeH3iAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4rPlqG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4Eho5Yu4NTAg3y7ph4E74XF9da2hucQzw7vFeln/Rn9KAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA6/9Rob0AAAA=[0m[Pipeline] }
+[8mha:////4KDtKRtMmIuAvWN7Ef/hejH0AyY5tVk+WBWWqR2l2Sd/AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+ENVAr0AAAA=[0m[Pipeline] // node
+[8mha:////4DAgS6yqVXXRICUdUK3Ye3ibrez+EdqXqrHDNdPM3lYrAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHvgnyMr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
